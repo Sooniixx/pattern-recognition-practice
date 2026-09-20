@@ -14,3 +14,7 @@
 
 ## Практичні роботи
 1. Google Colab, GitHub і перше знайомство з даними.
+## Практична робота 1
+**Тема:** Google Colab, GitHub і перше знайомство з даними.  
+У роботі використано набір даних Iris.  
+[Відкрити Notebook](notebooks/PR01_Fesenko_Sofiia.ipynb)
