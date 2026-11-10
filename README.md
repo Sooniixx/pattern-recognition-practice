@@ -7,19 +7,30 @@
 - Заклад освіти: Сумський державний університет
 
 ## Структура репозиторію
-- `notebooks/` — Google Colab і Jupyter Notebook;
-- `data/` — навчальні набори даних;
-- `reports/` — звіти та додаткові матеріали;
-- `README.md` — опис проєкту;
-- `.gitignore` — перелік файлів, які не додаються до Git.
+- `notebooks/` - Google Colab і Jupyter Notebook;
+- `data/` - навчальні набори даних;
+- `reports/` - звіти та додаткові матеріали;
+- `README.md` - опис проєкту;
+- `.gitignore` - перелік файлів, які не додаються до Git.
 
 ## Практичні роботи
 1. [Google Colab, GitHub і перше знайомство з даними](notebooks/PR01_Fesenko_Sofiia.ipynb)
 2. [Дослідницький аналіз і підготовка даних](notebooks/PR02_Fesenko_Sofiia.ipynb)
 3. [Перша модель і базове оцінювання якості](notebooks/PR03_Fesenko_Sofiia.ipynb)
-
+4. **Мініпроєкт (ПР 4–7):** [Класифікація (Heart Disease)](notebooks/PR04_Fesenko_Sofiia.ipynb) — крос-валідація, підбір моделей (Logistic Regression, SVM, KNN тощо), фінальні метрики (F1: 0.8685, ROC AUC: 0.9632).
 ### Основні результати ПР3
 | Модель | Accuracy test | F1-macro test |
 |---|---|---|
 | DummyClassifier | 0.333 | 0.167 |
 | DecisionTree | 0.967 | 0.967 |
+---
+
+## 4. Мініпроєкт: Порівняння класичних моделей класифікації (ПР 4–7)
+* **Датасет:** Heart Disease (бінарна класифікація)
+* **Методика:** Стратифікований поділ, крос-валідація (5 фолдів), єдиний пайплайн передоробки (`ColumnTransformer` + `Pipeline`).
+* **Досліджені моделі:** Logistic Regression, k-NN, GaussianNB, LDA, QDA, SVM (RBF).
+* **Фінальна модель:** Логістична регресія (обрана до відкриття тесту).
+* **Основні результати на закритому тесті:**
+  - **Test F1-macro:** `0.8685`
+  - **Test ROC AUC:** `0.9632`
+* **Файли проєкту:** код у ноутбуці `notebooks/PR04_Fesenko_Sofiia.ipynb`, модель у `models/best_classifier.joblib`, звіти у `reports/`.
