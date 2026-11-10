@@ -17,7 +17,7 @@
 1. [Google Colab, GitHub і перше знайомство з даними](notebooks/PR01_Fesenko_Sofiia.ipynb)
 2. [Дослідницький аналіз і підготовка даних](notebooks/PR02_Fesenko_Sofiia.ipynb)
 3. [Перша модель і базове оцінювання якості](notebooks/PR03_Fesenko_Sofiia.ipynb)
-4. **Мініпроєкт (ПР 4–7):** [Класифікація (Heart Disease)](notebooks/PR04_Fesenko_Sofiia.ipynb) — крос-валідація, підбір моделей (Logistic Regression, SVM, KNN тощо), фінальні метрики (F1: 0.8685, ROC AUC: 0.9632).
+4. **Мініпроєкт (ПР 4-7):** [Класифікація (Heart Disease)](notebooks/PR04_Fesenko_Sofiia.ipynb) - крос-валідація, підбір моделей (Logistic Regression, SVM, KNN тощо), фінальні метрики (F1: 0.8685, ROC AUC: 0.9632).
 ### Основні результати ПР3
 | Модель | Accuracy test | F1-macro test |
 |---|---|---|
