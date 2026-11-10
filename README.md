@@ -16,3 +16,10 @@
 ## Практичні роботи
 1. [Google Colab, GitHub і перше знайомство з даними](notebooks/PR01_Fesenko_Sofiia.ipynb)
 2. [Дослідницький аналіз і підготовка даних](notebooks/PR02_Fesenko_Sofiia.ipynb)
+3. [Перша модель і базове оцінювання якості](notebooks/PR03_Fesenko_Sofiia.ipynb)
+
+### Основні результати ПР3
+| Модель | Accuracy test | F1-macro test |
+|---|---|---|
+| DummyClassifier | 0.333 | 0.167 |
+| DecisionTree | 0.967 | 0.967 |
